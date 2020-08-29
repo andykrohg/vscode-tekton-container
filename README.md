@@ -27,6 +27,9 @@ This is due to the fact that CodeReady authenticates you as the namespace-scoped
 ```
 oc -n my-user-workspace adm policy add-role-to-user edit -z che-workspace
 ```
+
+**OR**
+
 2. Login as _your user_ in the Tekton Pipelines sidecar. 
 * In CodeReady Workspaces, open a New Terminal in the `vscode-tektonxxx` container.
 * Update your credentials using `oc`:
